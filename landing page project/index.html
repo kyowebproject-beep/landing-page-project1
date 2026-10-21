@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ayam Goreng Enak - Crispy & Lezat</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">
+      <i class="fa-solid fa-drumstick-bite"></i> Ayam Goreng Enak
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Beranda</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#about">Tentang Kami</a></li>
+      <li><a href="#contact">Kontak</a></li>
+      <li><a href="#contact" class="btn-order">Pesan Sekarang</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <span class="badge">🔥 Terlaris di Kota</span>
+      <h1>Ayam Goreng <span>Crispy & Lezat</span></h1>
+      <p>Digoreng dengan bumbu rahasia turun-temurun, renyah di luar, juicy di dalam. Cocok untuk makan siang, makan malam, atau acara keluarga.</p>
+      <div class="hero-btns">
+        <a href="#menu" class="btn-primary">Lihat Menu</a>
+        <a href="#contact" class="btn-secondary">Hubungi Kami</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=600&q=80" alt="Ayam Goreng Crispy"/>
+    </div>
+  </section>
+
+  <!-- KEUNGGULAN -->
+  <section class="features">
+    <div class="feature-card">
+      <i class="fa-solid fa-fire"></i>
+      <h3>Bumbu Rahasia</h3>
+      <p>Resep turun-temurun yang sudah terbukti lezat selama puluhan tahun.</p>
+    </div>
+    <div class="feature-card">
+      <i class="fa-solid fa-leaf"></i>
+      <h3>Bahan Segar</h3>
+      <p>Ayam segar pilihan tanpa pengawet, diproses higienis setiap hari.</p>
+    </div>
+    <div class="feature-card">
+      <i class="fa-solid fa-truck-fast"></i>
+      <h3>Antar Cepat</h3>
+      <p>Pesan sekarang, tiba dalam 30 menit ke lokasi Anda.</p>
+    </div>
+    <div class="feature-card">
+      <i class="fa-solid fa-star"></i>
+      <h3>Rating 4.9/5</h3>
+      <p>Ribuan pelanggan puas dengan cita rasa dan pelayanan kami.</p>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="menu" id="menu">
+    <div class="section-title">
+      <h2>Menu Unggulan Kami</h2>
+      <p>Pilihan ayam goreng terbaik untuk semua selera</p>
+    </div>
+    <div class="menu-grid">
+
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1562967914-608f82629710?w=400&q=80" alt="Ayam Goreng Original"/>
+        <div class="menu-info">
+          <h3>Ayam Goreng Original</h3>
+          <p>Bumbu kuning klasik, renyah sempurna, cocok untuk semua usia.</p>
+          <div class="menu-footer">
+            <span class="price">Rp 18.000</span>
+            <a href="#contact" class="btn-order-sm">Pesan</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card popular">
+        <span class="badge-popular">Terpopuler</span>
+        <img src="https://images.unsplash.com/photo-1598103442097-8b74394b95c3?w=400&q=80" alt="Ayam Goreng Crispy"/>
+        <div class="menu-info">
+          <h3>Ayam Goreng Crispy</h3>
+          <p>Lapisan tepung ekstra renyah, gurih, dan tidak berminyak.</p>
+          <div class="menu-footer">
+            <span class="price">Rp 22.000</span>
+            <a href="#contact" class="btn-order-sm">Pesan</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1567620832903-9fc6debc209f?w=400&q=80" alt="Ayam Goreng Pedas"/>
+        <div class="menu-info">
+          <h3>Ayam Goreng Pedas</h3>
+          <p>Bumbu cabai merah pilihan, pedas nampol, bikin ketagihan.</p>
+          <div class="menu-footer">
+            <span class="price">Rp 22.000</span>
+            <a href="#contact" class="btn-order-sm">Pesan</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1606728035253-49e8a23146de?w=400&q=80" alt="Paket Keluarga"/>
+        <div class="menu-info">
+          <h3>Paket Keluarga (10 pcs)</h3>
+          <p>Hemat untuk keluarga, lengkap dengan nasi dan lalapan segar.</p>
+          <div class="menu-footer">
+            <span class="price">Rp 175.000</span>
+            <a href="#contact" class="btn-order-sm">Pesan</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TENTANG KAMI -->
+  <section class="about" id="about">
+    <div class="about-image">
+      <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80" alt="Tentang Kami"/>
+    </div>
+    <div class="about-content">
+      <span class="badge">Sejak 2005</span>
+      <h2>Kenapa Pilih Ayam Goreng Enak?</h2>
+      <p>Kami telah melayani pelanggan setia selama lebih dari 20 tahun dengan komitmen menjaga kualitas rasa dan kebersihan. Setiap ayam diproses segar setiap hari, digoreng dengan minyak bersih, dan disajikan hangat langsung ke tangan Anda.</p>
+      <ul class="about-list">
+        <li><i class="fa-solid fa-check"></i> Ayam kampung & broiler pilihan</li>
+        <li><i class="fa-solid fa-check"></i> Tanpa MSG berlebihan</li>
+        <li><i class="fa-solid fa-check"></i> Dapur bersih & bersertifikat halal</li>
+        <li><i class="fa-solid fa-check"></i> Tersedia layanan catering</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- TESTIMONI -->
+  <section class="testimonials">
+    <div class="section-title">
+      <h2>Kata Pelanggan Kami</h2>
+      <p>Kepuasan pelanggan adalah prioritas utama kami</p>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <p>"Ayam gorengnya enak banget! Crispy tapi tetap juicy di dalam. Sudah jadi langganan keluarga kami."</p>
+        <span>— Budi Santoso, Jakarta</span>
+      </div>
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <p>"Paket keluarganya worth it banget, harga terjangkau dan porsinya banyak. Recommended!"</p>
+        <span>— Siti Rahayu, Bekasi</span>
+      </div>
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <p>"Pesan untuk acara kantor, semua tamu suka. Pelayanannya cepat dan ramah. Pasti pesan lagi!"</p>
+        <span>— Andi Wijaya, Depok</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAK -->
+  <section class="contact" id="contact">
+    <div class="section-title">
+      <h2>Hubungi Kami</h2>
+      <p>Siap melayani pesanan Anda setiap hari</p>
+    </div>
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <div class="info-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <div>
+            <h4>Alamat</h4>
+            <p>Jl. Raya Merdeka No. 88, Kelurahan Bahagia,<br/>Kecamatan Sejahtera, Jakarta Selatan 12345</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <i class="fa-solid fa-phone"></i>
+          <div>
+            <h4>Nomor Telepon</h4>
+            <p><a href="tel:+6281234567890">+62 812-3456-7890</a></p>
+            <p><a href="tel:+6221987654">(021) 987-654</a></p>
+          </div>
+        </div>
+        <div class="info-item">
+          <i class="fa-solid fa-envelope"></i>
+          <div>
+            <h4>Email</h4>
+            <p><a href="mailto:info@ayamgorengenak.id">info@ayamgorengenak.id</a></p>
+            <p><a href="mailto:order@ayamgorengenak.id">order@ayamgorengenak.id</a></p>
+          </div>
+        </div>
+        <div class="info-item">
+          <i class="fa-solid fa-clock"></i>
+          <div>
+            <h4>Jam Operasional</h4>
+            <p>Senin – Sabtu: 09.00 – 21.00 WIB</p>
+            <p>Minggu: 10.00 – 20.00 WIB</p>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <h3>Kirim Pesan / Pesan Sekarang</h3>
+        <input type="text" id="name" placeholder="Nama Lengkap" required/>
+        <input type="tel" id="phone" placeholder="Nomor WhatsApp" required/>
+        <input type="email" id="email" placeholder="Alamat Email" required/>
+        <select id="menu-select">
+          <option value="">-- Pilih Menu --</option>
+          <option>Ayam Goreng Original</option>
+          <option>Ayam Goreng Crispy</option>
+          <option>Ayam Goreng Pedas</option>
+          <option>Paket Keluarga (10 pcs)</option>
+        </select>
+        <textarea id="message" placeholder="Pesan atau catatan tambahan..." rows="4"></textarea>
+        <button type="submit" class="btn-primary">Kirim Pesanan</button>
+        <div class="form-success" id="formSuccess">
+          <i class="fa-solid fa-circle-check"></i> Pesanan berhasil dikirim! Kami akan segera menghubungi Anda.
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h3><i class="fa-solid fa-drumstick-bite"></i> Ayam Goreng Enak</h3>
+        <p>Cita rasa autentik yang sudah dipercaya ribuan keluarga Indonesia sejak 2005.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Navigasi</h4>
+        <ul>
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">Tentang Kami</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Kontak Cepat</h4>
+        <p><i class="fa-solid fa-phone"></i> +62 812-3456-7890</p>
+        <p><i class="fa-solid fa-envelope"></i> info@ayamgorengenak.id</p>
+        <p><i class="fa-solid fa-location-dot"></i> Jl. Raya Merdeka No. 88, Jakarta Selatan</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Ayam Goreng Enak. Semua hak dilindungi.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
